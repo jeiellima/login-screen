@@ -44,15 +44,18 @@ div.box {
 
 .user > p {
     padding: 10px;
+    text-shadow: 1px 1px 2px #020478;
 }
 
 .password {
     padding: 10px;
     text-align: center;
+    
 }
 
 .password > p {
     padding: 10px;
+    text-shadow: 1px 1px 2px #020478;
 }
 
 input.fromuser {
@@ -61,6 +64,9 @@ input.fromuser {
     padding: 2px;
     border-radius: 10px;
     text-align: center;
+    border-style: hidden;
+    box-shadow: 0px 0px 3px 0.5px #020478;
+    transition-duration: 0.2s;
 }
 div#enter{
     text-align: center;
@@ -71,6 +77,14 @@ input#enter {
     height: 36px;
     border-radius: 15px;
     margin-top: 30px;
-    font-size: 15px;
+    font-size: 15px; 
     color: #1655c1;
+    border-style: hidden;
+    box-shadow: 0px 0px 3px 0.5px #020478;
+    transition-duration: 0.2s;
+}
+
+input#enter:hover {
+    color: white;
+    background-color: #3676e3c4;
 }
