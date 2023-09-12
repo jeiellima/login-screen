@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Nasa';
-    src: url('fonts/nasalization-rg.otf') format(opentype);
+    src: url('../fonts/nasalization-rg.otf') format(opentype);
     font-weight: normal;
     font-style: normal;
 }
@@ -13,7 +13,7 @@ padding: 0px;
 }
 
 body {
-    background-image: url("images/background.jpeg");
+    background-image: url("../images/background.jpeg");
     width: 100%;
 }
 
