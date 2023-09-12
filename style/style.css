@@ -10,6 +10,7 @@
 * {
 margin: 0px;
 padding: 0px;
+font-family: "Nasa", Times, serif;
 }
 
 body {
@@ -18,7 +19,6 @@ body {
 }
 
 p {
-    font-family: "Nasa", Times, serif;
     font-size: 20px;
 }
 
@@ -33,6 +33,7 @@ div.box {
     background-color: #2955a18f;
     padding: 50px;
     border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px #101446bf;
 }
 
 .user {
@@ -53,10 +54,23 @@ div.box {
 .password > p {
     padding: 10px;
 }
-input {
+
+input.fromuser {
     width: 200px ;
     height: 25px;
     padding: 2px;
     border-radius: 10px;
     text-align: center;
+}
+div#enter{
+    text-align: center;
+}
+
+input#enter {
+    width: 90px;
+    height: 36px;
+    border-radius: 15px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #1655c1;
 }
